@@ -20,7 +20,7 @@ int main ()
     else if (daysUntilExpiration ==1)
     {
         cout << "Your subscription expires within a day!" << endl;
-        cout << "Renew now and save 20%!" << endl;
+        cout << "Renew now and save 10%!" << endl;
     }
     else if (daysUntilExpiration <= 5)
     {
