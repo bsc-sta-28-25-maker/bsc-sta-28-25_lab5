@@ -13,7 +13,7 @@ int main()
         {
             cout << "Sorry, you entered an invalid number, please try again." << endl;
             cin.clear();
-            cin.ignore(1000);
+            cin.ignore();
         }
         else
         {
