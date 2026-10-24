@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -14,7 +13,7 @@ int main()
         {
             cout << "Sorry, you entered an invalid number, please try again." << endl;
             cin.clear();
-            cin.ignore(1000, '\n');
+            cin.ignore(1000);
         }
         else
         {
