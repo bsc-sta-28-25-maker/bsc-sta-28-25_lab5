@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -21,7 +20,7 @@ int main() {
 
         if (cin.fail() || choice < 1 || choice > 4) {
             cin.clear();
-            cin.ignore(1000);
+            cin.ignore();
             cout << "Invalid input. Please enter a valid choice (1-4)." << endl;
             choice = 0;
             continue;
